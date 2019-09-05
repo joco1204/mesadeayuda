@@ -58,7 +58,11 @@
 		*  Constructor
 		*/
 
+		/*function ezSQLcore(){
+		}*/
+
 		function __construct(){
+
 		}
 
 		/**********************************************************************
@@ -66,7 +70,8 @@
 		*  Returns array of host and port. If port is omitted, returns $default
 		*/
 
-		function get_host_port( $host, $default = false ){
+		function get_host_port( $host, $default = false )
+		{
 			$port = $default;
 			if ( false !== strpos( $host, ':' ) ) {
 				list( $host, $port ) = explode( ':', $host );
@@ -79,7 +84,8 @@
 		*  Print SQL/DB error - over-ridden by specific DB class
 		*/
 
-		function register_error($err_str){
+		function register_error($err_str)
+		{
 			// Keep track of last error
 			$this->last_error = $err_str;
 
