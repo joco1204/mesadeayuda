@@ -1,16 +1,16 @@
 <?php
 /* The base configurations of Free Help Desk.
 /** The name of the database - create this first*/
-define('db_name', 'ik0s6qjw77554m3m');
+define('db_name', 'mesadeayuda');
 
 /** MySQL database username */
-define('db_user', 'gwf7lvaiycqfzhr3');
+define('db_user', 'root');
 
 /** MySQL database password */
-define('db_password', 'heaygg94wflgfzu8');
+define('db_password', '12345');
 
 /** MySQL hostname */
-define('db_host', 'c584md9egjnm02sk.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
+define('db_host', 'localhost');
 
 /** adjust the time display in hours */
 define('FHD_TIMEADJUST', '+20');
